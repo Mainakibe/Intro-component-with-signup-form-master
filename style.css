@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+}
+:root{
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue:hsl(248, 32%, 49%);
+    --DarkBlue:hsl(249, 10%, 26%);
+    --GrayishBLue:hsl(246, 25%, 77%);
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.wrapper{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(/images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px 100px 0px 0px;
+    text-align: center;
+}
+.right{
+    width: 35%;
+    margin: 0px 0px 0px 0px;
+    height: 75%;
+}
+h1{
+    color: #fff;
+    font-weight:700 ;
+    font-size: 60px;
+    line-height: 75px;
+    padding-bottom: 20px;
+}
+p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 600;
+    letter-spacing: 1px;
+}
+section{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    box-shadow: 0px 5px 10px hsla(249, 10%, 26%,0.5);
+}
+form{
+    position: relative;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+}    
+input{
+    height: 20px;
+    width: 90%;
+    outline:none;
+    background-color: transparent;
+    border: 1px solid hsl(246, 25%, 77%);
+    padding: 15px;
+    font-size:16px;
+    margin: 5px;
+}
+input:focus{
+    border-color:hsl(249, 10%, 26%) ;
+}
+.error-icon{
+    position: absolute;
+    left: 85%;
+}
+.error-msg{
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+    font-style: italic;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    width: 97%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 2px 5px 10px hsla(249, 10%, 26%,0.5);
+    transition: opacity 0.2s ease;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 15px;
+}
+footer{
+    font-size: 13px;
+    text-align: center;
+    margin: 20px;
+    color: hsl(248, 32%, 49%);
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
