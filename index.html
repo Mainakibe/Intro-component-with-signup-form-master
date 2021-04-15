@@ -28,24 +28,24 @@
             Try it free 7 days then $20/mo. thereafter
         </section>
         <form>
-            <div class="first-name">
+            <div class="input error">
                 <img src="images/icon-error.svg" alt="" class="error-icon">
-                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="First Name" id="first-name">
                 <span class="error-msg">First Name cannot be empty</span>
             </div>
-            <div class="last-name">
+            <div class="input">
                 <img src="images/icon-error.svg" alt="" class="error-icon">
-                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Last Name" id="last-name">
                 <span class="error-msg">Last Name cannot be empty</span>
             </div>
-            <div class="email">
+            <div class="input">
                 <img src="images/icon-error.svg" alt="" class="error-icon">
-                <input type="email" placeholder="Email Address">
+                <input type="email" placeholder="Email Address" id="email">
                 <span class="error-msg">Looks like this is not an email</span>
             </div>
-            <div class="password">
+            <div class="input">
                 <img src="images/icon-error.svg" alt="" class="error-icon">
-                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Password" id="password">
                 <span class="error-msg">Password cannot be empty</span>
             </div>
             <button type="submit">
@@ -57,5 +57,6 @@
         </form>
     </div>
 </div> 
+<script src="./main.js"></script>
 </body>
 </html>
